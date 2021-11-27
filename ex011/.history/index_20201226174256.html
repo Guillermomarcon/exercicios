@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em html5</title>
+</head>
+<body>
+    <h1>Imagens Dinamicas</h1>
+    <p>Tente abrir este site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+    <!--Sempre da imagem maio para a menor, não importa quantas imagens tenha, o importante é sempre começar da maior para a menor-->
+        <source media="(max-width: 750px )" srcset="imagens/gui300.jpg" type="image/jpg">
+        <source media="(max-width: 1050px )" srcset="imagens/gui700.jpg" type="image/jpg">
+       <img src="imagens/gui1000.jpg" alt="Imagem dinamica"> 
+    </picture>
+    <h1>Reproduzindo Audios</h1>
+    <p>Vamos aprender a reproduzir audios em HTML5</p>
+
+    
+</body>
+</html>
